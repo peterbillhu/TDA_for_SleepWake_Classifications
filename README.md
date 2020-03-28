@@ -25,7 +25,7 @@ SI_Table_13_14_15                       : non-Subject, 20 seeds, Training on Tra
 
 SI_Table_16_17                          : comparison for H and VR features : Subject, 1 seed, Training on Training, Sleep versus Wake
 
-SI_Table_18_19                          : Add VR-H2 features : non-Subject, 20 seeds, Training on Dreams & UCD, Sleep versus Wake
+SI_Table_18_19                          : Add VR-H2 features : Subject, 1 seeds, Training on Dreams & UCD, Sleep versus Wake
 
 
 For each Folder, execute the Matlab .m file named by "Generate_Table_(...)" to obtain the corresponding table(s). The result would be stored under the fold "Table_Infos". For example, the file "EXP_Table_1_training_on_Training_UCD_avg.mat" means the column of  [TP, FP, TN, FN, SE, SP, ACC, PR, F1, AUC, Kappa] with respect to the testing dataset UCD. Or for the 2 classes classification, a column represent satistics [S22,S11,S00,S21,S20,S12,S10,S02,S01,SE2,SE1,SE0,pP2,pP1,pP0,Acc,Kappa].
