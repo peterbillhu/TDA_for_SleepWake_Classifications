@@ -23,7 +23,7 @@ SI_Table_10_11_12                       : non-Subject, 20 seeds, Training on Tra
 
 SI_Table_13_14_15                       : non-Subject, 20 seeds, Training on Training & Dreams & UCD, Three classes
 
-SI_Table_16_17                          : comparison for H and VR features : non-Subject, 20 seeds, Training on Training, Sleep versus Wake
+SI_Table_16_17                          : comparison for H and VR features : Subject, 1 seed, Training on Training, Sleep versus Wake
 
 SI_Table_18_19                          : Add VR-H2 features : non-Subject, 20 seeds, Training on Dreams & UCD, Sleep versus Wake
 
