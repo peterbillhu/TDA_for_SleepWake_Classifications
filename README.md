@@ -39,7 +39,7 @@ SI_Table_18_19_Subject_Normalization                          : Add VR-H2 featur
 
 =======================================================================================================================================
 
-Except using launch.m, you can also only generate certain tables you concern: For each Folder, execute the Matlab .m file named by "Generate_Table_(...)" to obtain the corresponding table(s). 
+Except using launch.m, you can just generate certain tables you concern: For each Folder, execute the Matlab .m file named by "Generate_Table_(...)" to obtain the corresponding table(s). 
 
 The result would be stored under the fold "Table_Infos". For example, the file "EXP_Table_1_training_on_Training_UCD_avg.mat" means the column of  [TP, FP, TN, FN, SE, SP, ACC, PR, F1, AUC, Kappa] with respect to the testing dataset UCD. Or for the 2 classes classification, a column represent satistics [S22,S11,S00,S21,S20,S12,S10,S02,S01,SE2,SE1,SE0,pP2,pP1,pP0,Acc,Kappa].
 
