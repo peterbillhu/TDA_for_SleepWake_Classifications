@@ -2,13 +2,13 @@ clear; clc;
 
 %% Step 1 :: Load all featrues.
 % Feature vectors are stored in the mat file 'pdfeatNewPS2.mat'.
-cd ..;
 load('Original_subject_indices_All.mat');
+cd ..;
 load('pdfeatR120H2_UCD_Val.mat');
 load('pdfeatR120H2_Dreams.mat');
+load('pdfeatNewPS2.mat');
 cd SI_Table_18_19_Subject_Normalization;
 
-load('pdfeatNewPS2.mat');
 ftH90NewPS2_CGMH = subject_Normalization(ftH90NewPS2_CGMH, Original_subject_indices_Tra);
 ftH90NewPS2_DREAM = subject_Normalization(ftH90NewPS2_DREAM, Original_subject_indices_Dream);
 ftH90NewPS2_UCD = subject_Normalization(ftH90NewPS2_UCD, Original_subject_indices_UCD);
