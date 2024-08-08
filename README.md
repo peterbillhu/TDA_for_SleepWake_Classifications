@@ -11,7 +11,7 @@ Authors: Yu-Min Chung, Chuan-Shen Hu, Yu-Lun Lo, and Hau-Tieng Wu
 
 Step 1. Download the .rar file Released_Codes_Subject_Normalization_2020_04_23_Only_Codes, and unzip it.
 
-Step 2. Download .mat files: pdfeatNewPS2, pdfeatNewPS2_without_wake, pdfeatR120H2_Dreams, and pdfeatR120H2_UCD_Val. Put them in the folder of the launch.m which is located. Download link: [[https://drive.google.com/drive/folders/1H7zWJDYFDrKthjTVsq_MiBZQflOKlhpF?usp=sharing](https://drive.google.com/drive/folders/1QHNcQOoWEl-2eptHySNlLyYwiUg_yLV8?usp=sharing)](https://drive.google.com/drive/folders/1QHNcQOoWEl-2eptHySNlLyYwiUg_yLV8?usp=sharing)
+Step 2. Download .mat files: pdfeatNewPS2, pdfeatNewPS2_without_wake, pdfeatR120H2_Dreams, and pdfeatR120H2_UCD_Val. Put them in the folder of the launch.m which is located. The download link: https://drive.google.com/drive/folders/1QHNcQOoWEl-2eptHySNlLyYwiUg_yLV8?usp=sharing
 
 Step 3. Execute lauch.m by Matlab, then all tables will be generated in corresponding folders, these folders are named "Table_Infos" under the following folders:
 
